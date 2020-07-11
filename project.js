@@ -79,6 +79,8 @@
         function myFunction(item, index) {
             document.getElementById("name").innerHTML = document.getElementById("artistSearch").value;
             document.getElementById("demo").innerHTML += (index + 1) + ". " + item ;
+            let br = document.createElement("br");
+            document.getElementById("demo").appendChild(br);
         }
         function myFunction1(item, index) {
             let btn = document.createElement("button");
@@ -122,6 +124,20 @@
             clear();
             insertionSort(songList);
             songList.forEach(myFunction);
+
+        }
+        function remove(){
+            let songToBeRemoved = document.getElementById("removeSong").value;
+            for (listIndex = 0; listIndex <= artists.length; listIndex++) {
+                if (songToBeRemoved == songList[listIndex]) {
+                    console.log(listIndex);
+                    songList.splice(listIndex, 1);
+                    return i;
+                } else if (i == 6) {
+                    console.log("no song found");
+                    window.alert("Please Enter A Valid Song Name");
+                }
+            }
 
         }
         //insertion sort the song list
