@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        COMP 3761 Project
+    </title>
+    <style>
+        body {
+            padding: 50px;
+            font-family: arial;
+            background-color: rgb(76, 150, 155);
+            color: white;
+        }
+
+        .artist:hover {
+            color: rgb(115, 58, 129);
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #demo {
+            text-align: left 100px;
+        }
+
+        #artistContainer {
+            text-align: center;
+        }
+
+        input {
+            text-align: center;
+            width: 150px;
+            height: 25px;
+            border-radius: 7px;
+        }
+
+        button {
+            text-align: center;
+            height: 30px;
+            border-radius: 7px;
+            background-color: orange;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        #someContainer{
+            text-align: center;
+        }
+        #grandeInfo{
+            display:none;
+            text-align: center;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <h2><i>Click</i> or <i>type</i> in an artist name from the following list to see the top hits</h2>
+
+    <div id="artistContainer">
+        <p><span class="artist" onclick="grande()">Ariana Grande</span></p>
+        <p><span class="artist" onclick="eilish()">Billie Eilish</span></p>
+        <p><span class="artist" onclick="sherran()">Ed Sherran</span></p>
+        <p><span class="artist" onclick="mendes()">Shawn Mendes</span></p>
+        <p><span class="artist" onclick="swift()">Taylor Swift</span></p>
+        <p><span class="artist" onclick="cabello()">Camila Cabello</span></p>
+
+        <input id="artistSearch">
+        <button id="artistSearchBtn" value="submit" onclick="songs1(); searchMatch()">Search</button>
+    </div>
+    <p id="name"></p>
+
+    <p id="demo"></p>
+
+    <div id="grandeInfo">
+        <p>Birth Date: June 26, 1993</p>
+        <p>Place of Birth: Florida</p>
+        <p>instagram: @arianagrande</p>
+    </div>
+    <div id="eilishInfo">
+        <p>Birth Date: June 26, 1993</p>
+        <p>Place of Birth: Florida</p>
+        <p>instagram: @arianagrande</p>
+    </div>
+    <div id="sherranInfo">
+        <p>Birth Date: June 26, 1993</p>
+        <p>Place of Birth: Florida</p>
+        <p>instagram: @arianagrande</p>
+    </div>
+    <div id="mendesInfo">
+        <p>Birth Date: June 26, 1993</p>
+        <p>Place of Birth: Florida</p>
+        <p>instagram: @arianagrande</p>
+    </div>
+    <div id="swiftInfo">
+        <p>Birth Date: June 26, 1993</p>
+        <p>Place of Birth: Florida</p>
+        <p>instagram: @arianagrande</p>
+    </div>
+    <div id="cabelloInfo">
+        <p>Birth Date: June 26, 1993</p>
+        <p>Place of Birth: Florida</p>
+        <p>instagram: @arianagrande</p>
+    </div>
+
+    </br>
+    <h3>Create a personal list of songs</h3>
+    <p>Songs(seperated by comma)</p>
+    <div id="someContainer">
+        <input id="newSong">
+        <button onclick="newList()">Submit</button>
+        <br>
+        <button onclick="listOfSongs()">See my song list</button>
+    </div>
+    <script src="./project.js" defer></script>
+</body>
+
+</html>
