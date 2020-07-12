@@ -15,6 +15,7 @@
         var swiftLink = ["https://www.youtube.com/watch?v=Dkk9gvTmCXY", "https://www.youtube.com/watch?v=FuXNumBwDOM", "https://www.youtube.com/watch?v=AqAJLh9wuZ0", "https://www.youtube.com/watch?v=-BjZmE2gtdo", "https://www.youtube.com/watch?v=e-ORhEE9VVg"];
         var cabelloLink =["https://www.youtube.com/watch?v=Pkh8UtuejGw", "https://www.youtube.com/watch?v=6fd2kkLmSDQ", "https://www.youtube.com/watch?v=UPOT2tgY9QQ", "https://www.youtube.com/watch?v=HCjNJDNzw8Y", "https://www.youtube.com/watch?v=Uk1hv6h7O1Y"];
         var songLinks = [grandeLink, eilishLink, sherranLink, mendesLink, swiftLink, cabelloLink];
+        var instragram = ["https://www.instagram.com/arianagrande/?hl=en", "https://www.instagram.com/billieeilish/?hl=en", "https://www.instagram.com/teddysphotos/?hl=en", "https://www.instagram.com/shawnmendes/?hl=en", "https://www.instagram.com/taylorswift/?hl=en", "https://www.instagram.com/camila_cabello/?hl=en"];
         var songList = [];
         var i;
 
@@ -128,6 +129,7 @@
         }
         function remove(){
             let songToBeRemoved = document.getElementById("removeSong").value;
+            document.getElementById("removeSong").value = null;
             for (listIndex = 0; listIndex <= artists.length; listIndex++) {
                 if (songToBeRemoved == songList[listIndex]) {
                     console.log(listIndex);
