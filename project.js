@@ -15,7 +15,7 @@
         var swiftLink = ["https://www.youtube.com/watch?v=Dkk9gvTmCXY", "https://www.youtube.com/watch?v=FuXNumBwDOM", "https://www.youtube.com/watch?v=AqAJLh9wuZ0", "https://www.youtube.com/watch?v=-BjZmE2gtdo", "https://www.youtube.com/watch?v=e-ORhEE9VVg"];
         var cabelloLink =["https://www.youtube.com/watch?v=Pkh8UtuejGw", "https://www.youtube.com/watch?v=6fd2kkLmSDQ", "https://www.youtube.com/watch?v=UPOT2tgY9QQ", "https://www.youtube.com/watch?v=HCjNJDNzw8Y", "https://www.youtube.com/watch?v=Uk1hv6h7O1Y"];
         var songLinks = [grandeLink, eilishLink, sherranLink, mendesLink, swiftLink, cabelloLink];
-        var instragram = ["https://www.instagram.com/arianagrande/?hl=en", "https://www.instagram.com/billieeilish/?hl=en", "https://www.instagram.com/teddysphotos/?hl=en", "https://www.instagram.com/shawnmendes/?hl=en", "https://www.instagram.com/taylorswift/?hl=en", "https://www.instagram.com/camila_cabello/?hl=en"];
+        var instagramLink = ["https://www.instagram.com/arianagrande/?hl=en", "https://www.instagram.com/billieeilish/?hl=en", "https://www.instagram.com/teddysphotos/?hl=en", "https://www.instagram.com/shawnmendes/?hl=en", "https://www.instagram.com/taylorswift/?hl=en", "https://www.instagram.com/camila_cabello/?hl=en"];
         var songList = [];
         var i;
 
@@ -90,8 +90,11 @@
             document.getElementById("name").innerHTML = document.getElementById("artistSearch").value;
             document.getElementById("name").appendChild(btn);
             document.getElementById("demo").innerHTML += (index + 1) + ". " + item ;
-            let btn1 = document.createElement("button");
+            let btn1 = document.createElement("img");
             btn1.setAttribute("id", "btn"+" "+ index);
+            btn1.setAttribute("src", "./youtube.png");
+            btn1.setAttribute("width", "80px");
+            btn1.setAttribute("height", "70px");
             console.log(btn1.id)
             btn1.innerHTML="Listen";
             btn1.setAttribute("onclick","clicked(this.id)");
@@ -175,4 +178,12 @@
             if (i == 5){
                 document.getElementById("cabelloInfo").style.display = "block";
             }
+        }
+        
+        function instagram(id){
+            console.log(id);
+            let index = id.split(" ")[1];
+            console.log(index);
+            let ins = instagramLink[--index];
+            window.location.href = ins;
         }
