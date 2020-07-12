@@ -33,7 +33,8 @@ button {
     text-align: center;
     height: 30px;
     border-radius: 7px;
-    background-color: orange;
+    background-color: rgb(233, 172, 60);
+    border: none;
 }
 
 h2 {
