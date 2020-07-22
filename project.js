@@ -8,14 +8,56 @@
         var artists = ["ariana grande", "billie eilish", "ed sherran", "shawn mendes", "taylor swift", "camila cabello"];
         var artistsName = ["ariana grande", "billie eilish", "ed sherran", "shawn mendes", "taylor swift", "camila cabello"];
         var songs = [arianaGrande, billieEilish, edSherran, shawnMendes, taylorSwift, camilaCabello];
-        var grandeLink = ["https://www.youtube.com/watch?v=pE49WK-oNjU", "https://www.youtube.com/watch?v=AoAm4om0wTs", "https://www.youtube.com/watch?v=QYh6mYIJG2Y","https://www.youtube.com/watch?v=gl1aHhXnN1k","https://www.youtube.com/watch?v=ffxKSjUwKdU" ];
-        var eilishLink =["https://www.youtube.com/watch?v=DyDfgMOUjCI", "https://www.youtube.com/watch?v=EgBJmlPo8Xw", "https://www.youtube.com/watch?v=V1Pl8CzNzCw", "https://www.youtube.com/watch?v=pbMwTqkKSps", "https://www.youtube.com/watch?v=GB_S2qFh5lU"];
-        var sherranLink =["https://www.youtube.com/watch?v=2Vv-BfVoq4g", "https://www.youtube.com/watch?v=y83x7MgzWOA", "https://www.youtube.com/watch?v=JGwWNGJdvx8", "https://www.youtube.com/watch?v=mj0XInqZMHY", "https://www.youtube.com/watch?v=qgmXPCX4VzU"];
-        var mendesLink =["https://www.youtube.com/watch?v=Pkh8UtuejGw", "https://www.youtube.com/watch?v=lY2yjAdbvdQ", "https://www.youtube.com/watch?v=oTJ-oqwxdZY", "https://www.youtube.com/watch?v=dT2owtxkU8k", "https://www.youtube.com/watch?v=36tggrpRoTI"];
-        var swiftLink = ["https://www.youtube.com/watch?v=Dkk9gvTmCXY", "https://www.youtube.com/watch?v=FuXNumBwDOM", "https://www.youtube.com/watch?v=AqAJLh9wuZ0", "https://www.youtube.com/watch?v=-BjZmE2gtdo", "https://www.youtube.com/watch?v=e-ORhEE9VVg"];
-        var cabelloLink =["https://www.youtube.com/watch?v=Pkh8UtuejGw", "https://www.youtube.com/watch?v=6fd2kkLmSDQ", "https://www.youtube.com/watch?v=UPOT2tgY9QQ", "https://www.youtube.com/watch?v=HCjNJDNzw8Y", "https://www.youtube.com/watch?v=Uk1hv6h7O1Y"];
+        var grandeLink = [
+            "https://www.youtube.com/watch?v=pE49WK-oNjU",
+            "https://www.youtube.com/watch?v=AoAm4om0wTs",
+            "https://www.youtube.com/watch?v=QYh6mYIJG2Y",
+            "https://www.youtube.com/watch?v=gl1aHhXnN1k",
+            "https://www.youtube.com/watch?v=ffxKSjUwKdU"
+        ];
+        var eilishLink = [
+            "https://www.youtube.com/watch?v=DyDfgMOUjCI",
+            "https://www.youtube.com/watch?v=EgBJmlPo8Xw",
+            "https://www.youtube.com/watch?v=V1Pl8CzNzCw",
+            "https://www.youtube.com/watch?v=pbMwTqkKSps",
+            "https://www.youtube.com/watch?v=GB_S2qFh5lU"
+        ];
+        var sherranLink = [
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g", 
+            "https://www.youtube.com/watch?v=y83x7MgzWOA", 
+            "https://www.youtube.com/watch?v=JGwWNGJdvx8", 
+            "https://www.youtube.com/watch?v=mj0XInqZMHY", 
+            "https://www.youtube.com/watch?v=qgmXPCX4VzU"
+        ];
+        var mendesLink = [
+            "https://www.youtube.com/watch?v=Pkh8UtuejGw", 
+            "https://www.youtube.com/watch?v=lY2yjAdbvdQ", 
+            "https://www.youtube.com/watch?v=oTJ-oqwxdZY", 
+            "https://www.youtube.com/watch?v=dT2owtxkU8k", 
+            "https://www.youtube.com/watch?v=36tggrpRoTI"
+        ];
+        var swiftLink = [
+            "https://www.youtube.com/watch?v=Dkk9gvTmCXY", 
+            "https://www.youtube.com/watch?v=FuXNumBwDOM", 
+            "https://www.youtube.com/watch?v=AqAJLh9wuZ0", 
+            "https://www.youtube.com/watch?v=-BjZmE2gtdo", 
+            "https://www.youtube.com/watch?v=e-ORhEE9VVg"
+        ];
+        var cabelloLink = [
+            "https://www.youtube.com/watch?v=Pkh8UtuejGw", 
+            "https://www.youtube.com/watch?v=6fd2kkLmSDQ", 
+            "https://www.youtube.com/watch?v=UPOT2tgY9QQ", 
+            "https://www.youtube.com/watch?v=HCjNJDNzw8Y", 
+            "https://www.youtube.com/watch?v=Uk1hv6h7O1Y"];
         var songLinks = [grandeLink, eilishLink, sherranLink, mendesLink, swiftLink, cabelloLink];
-        var instagramLink = ["https://www.instagram.com/arianagrande/?hl=en", "https://www.instagram.com/billieeilish/?hl=en", "https://www.instagram.com/teddysphotos/?hl=en", "https://www.instagram.com/shawnmendes/?hl=en", "https://www.instagram.com/taylorswift/?hl=en", "https://www.instagram.com/camila_cabello/?hl=en"];
+        var instagramLink = [
+            "https://www.instagram.com/arianagrande/?hl=en", 
+        "https://www.instagram.com/billieeilish/?hl=en", 
+        "https://www.instagram.com/teddysphotos/?hl=en", 
+        "https://www.instagram.com/shawnmendes/?hl=en", 
+        "https://www.instagram.com/taylorswift/?hl=en", 
+        "https://www.instagram.com/camila_cabello/?hl=en"
+    ];
         var songList = [];
         var i;
 
@@ -80,29 +122,30 @@
 
         function myFunction(item, index) {
             document.getElementById("name").innerHTML = document.getElementById("artistSearch").value;
-            document.getElementById("demo").innerHTML += (index + 1) + ". " + item ;
+            document.getElementById("demo").innerHTML += (index + 1) + ". " + item;
             let br = document.createElement("br");
             document.getElementById("demo").appendChild(br);
         }
+
         function myFunction1(item, index) {
             let btn = document.createElement("button");
             btn.setAttribute("onclick", "artistInfo()");
             btn.innerHTML = "See more about " + document.getElementById("artistSearch").value;
             document.getElementById("name").innerHTML = document.getElementById("artistSearch").value;
             document.getElementById("name").appendChild(btn);
-            document.getElementById("demo").innerHTML += (index + 1) + ". " + item ;
+            document.getElementById("demo").innerHTML += (index + 1) + ". " + item;
             let btn1 = document.createElement("img");
-            btn1.setAttribute("id", "btn"+" "+ index);
+            btn1.setAttribute("id", "btn" + " " + index);
             btn1.setAttribute("src", "./youtube.png");
             btn1.setAttribute("width", "80px");
             btn1.setAttribute("height", "70px");
             console.log(btn1.id)
-            btn1.innerHTML="Listen";
-            btn1.setAttribute("onclick","clicked(this.id)");
+            btn1.innerHTML = "Listen";
+            btn1.setAttribute("onclick", "clicked(this.id)");
             let br = document.createElement("br");
             let plusBtn = document.createElement("button");
             plusBtn.setAttribute("onclick", "plus(this.id)");
-            if(checkList(item)){
+            if (checkList(item)) {
                 plusBtn.innerHTML = "-";
             } else {
                 plusBtn.innerHTML = "+";
@@ -112,10 +155,12 @@
             document.getElementById("demo").appendChild(plusBtn);
             document.getElementById("demo").appendChild(br);
         }
+
         function myFunction2(item, index) {
-            console.log((index +1) + "." + item);
+            console.log((index + 1) + "." + item);
         }
-        function clicked(id){
+
+        function clicked(id) {
             console.log(id)
             let index = id.split(" ")[1];
             console.log(index);
@@ -140,7 +185,8 @@
             songList.forEach(myFunction);
 
         }
-        function remove(){
+
+        function remove() {
             let songToBeRemoved = document.getElementById("removeSong").value;
             document.getElementById("removeSong").value = null;
             for (listIndex = 0; listIndex <= artists.length; listIndex++) {
@@ -169,44 +215,46 @@
             console.log(list);
         }
 
-        function artistInfo(){
-            if (i == 0){
+        function artistInfo() {
+            if (i == 0) {
                 document.getElementById("grandeInfo").style.display = "block";
             }
-            if (i == 1){
+            if (i == 1) {
                 document.getElementById("eilishInfo").style.display = "block";
             }
-            if (i == 2){
+            if (i == 2) {
                 document.getElementById("sherranInfo").style.display = "block";
             }
-            if (i == 3){
+            if (i == 3) {
                 document.getElementById("mendesInfo").style.display = "block";
             }
-            if (i == 4){
+            if (i == 4) {
                 document.getElementById("swiftInfo").style.display = "block";
             }
-            if (i == 5){
+            if (i == 5) {
                 document.getElementById("cabelloInfo").style.display = "block";
             }
         }
-        
-        function instagram(id){
+
+        function instagram(id) {
             console.log(id);
             let index = id.split(" ")[1];
             console.log(index);
             let ins = instagramLink[--index];
             window.location.href = ins;
         }
-        function plus(id){
+
+        function plus(id) {
             let index = id.split(" ")[1];
             let plusBtnPsd = songs[i][index];
             console.log(plusBtnPsd);
             songList.push(plusBtnPsd);
             return checkList(plusBtnPsd);
         }
-        function checkList(item){
-            for ( n = 0; n <= artists.length; n++){
-                if (songList[n] == item){
+
+        function checkList(item) {
+            for (n = 0; n <= artists.length; n++) {
+                if (songList[n] == item) {
                     clear1(true);
                     return true;
                 } else {
