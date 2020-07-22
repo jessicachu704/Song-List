@@ -1,68 +1,68 @@
         //use 2d array of artists and songs and use algorithm to loop through the array then show the corresponding info
         var arianaGrande = [
-            "Stuck with You", 
-            "Rain on Me", 
-            "7 Rings", 
-            "Thank U, Next", 
+            "Stuck with You",
+            "Rain on Me",
+            "7 Rings",
+            "Thank U, Next",
             "No Tears Left to Cry"
         ];
         var billieEilish = [
-            "Bad Guy", 
-            "Everything I Wanted", 
-            "Lovely", 
-            "When the Party's Over", 
+            "Bad Guy",
+            "Everything I Wanted",
+            "Lovely",
+            "When the Party's Over",
             "No Time to Die"
         ];
         var edSherran = [
             "Perfect",
-            "I don't Care", 
-            "Shape of You", 
-            "Beautiful People", 
+            "I don't Care",
+            "Shape of You",
+            "Beautiful People",
             "Photograph"
         ];
         var shawnMendes = [
-            "Señorita", 
-            "Treat You Better", 
-            "If I Can't Have You", 
-            "There's Nothing Holding Me Back", 
+            "Señorita",
+            "Treat You Better",
+            "If I Can't Have You",
+            "There's Nothing Holding Me Back",
             "In My Blood"
         ];
         var taylorSwift = [
             "You Need to Calm Down",
-            "ME!", 
-            "The Man", 
-            "Lover", 
+            "ME!",
+            "The Man",
+            "Lover",
             "Blank Space"
         ];
         var camilaCabello = [
-            "Señorita", 
-            "My Oh My", 
-            "South of The Border", 
-            "Havana", 
+            "Señorita",
+            "My Oh My",
+            "South of The Border",
+            "Havana",
             "Beautiful"
         ];
         var artists = [
-            "ariana grande", 
-            "billie eilish", 
-            "ed sherran", 
-            "shawn mendes", 
-            "taylor swift", 
+            "ariana grande",
+            "billie eilish",
+            "ed sherran",
+            "shawn mendes",
+            "taylor swift",
             "camila cabello"
         ];
         var artistsName = [
-            "ariana grande", 
-            "billie eilish", 
-            "ed sherran", 
-            "shawn mendes", 
-            "taylor swift", 
+            "ariana grande",
+            "billie eilish",
+            "ed sherran",
+            "shawn mendes",
+            "taylor swift",
             "camila cabello"
         ];
         var songs = [
-            arianaGrande, 
-            billieEilish, 
-            edSherran, 
-            shawnMendes, 
-            taylorSwift, 
+            arianaGrande,
+            billieEilish,
+            edSherran,
+            shawnMendes,
+            taylorSwift,
             camilaCabello
         ];
         var grandeLink = [
@@ -80,41 +80,48 @@
             "https://www.youtube.com/watch?v=GB_S2qFh5lU"
         ];
         var sherranLink = [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g", 
-            "https://www.youtube.com/watch?v=y83x7MgzWOA", 
-            "https://www.youtube.com/watch?v=JGwWNGJdvx8", 
-            "https://www.youtube.com/watch?v=mj0XInqZMHY", 
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "https://www.youtube.com/watch?v=y83x7MgzWOA",
+            "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "https://www.youtube.com/watch?v=mj0XInqZMHY",
             "https://www.youtube.com/watch?v=qgmXPCX4VzU"
         ];
         var mendesLink = [
-            "https://www.youtube.com/watch?v=Pkh8UtuejGw", 
-            "https://www.youtube.com/watch?v=lY2yjAdbvdQ", 
-            "https://www.youtube.com/watch?v=oTJ-oqwxdZY", 
-            "https://www.youtube.com/watch?v=dT2owtxkU8k", 
+            "https://www.youtube.com/watch?v=Pkh8UtuejGw",
+            "https://www.youtube.com/watch?v=lY2yjAdbvdQ",
+            "https://www.youtube.com/watch?v=oTJ-oqwxdZY",
+            "https://www.youtube.com/watch?v=dT2owtxkU8k",
             "https://www.youtube.com/watch?v=36tggrpRoTI"
         ];
         var swiftLink = [
-            "https://www.youtube.com/watch?v=Dkk9gvTmCXY", 
-            "https://www.youtube.com/watch?v=FuXNumBwDOM", 
-            "https://www.youtube.com/watch?v=AqAJLh9wuZ0", 
-            "https://www.youtube.com/watch?v=-BjZmE2gtdo", 
+            "https://www.youtube.com/watch?v=Dkk9gvTmCXY",
+            "https://www.youtube.com/watch?v=FuXNumBwDOM",
+            "https://www.youtube.com/watch?v=AqAJLh9wuZ0",
+            "https://www.youtube.com/watch?v=-BjZmE2gtdo",
             "https://www.youtube.com/watch?v=e-ORhEE9VVg"
         ];
         var cabelloLink = [
-            "https://www.youtube.com/watch?v=Pkh8UtuejGw", 
-            "https://www.youtube.com/watch?v=6fd2kkLmSDQ", 
-            "https://www.youtube.com/watch?v=UPOT2tgY9QQ", 
-            "https://www.youtube.com/watch?v=HCjNJDNzw8Y", 
-            "https://www.youtube.com/watch?v=Uk1hv6h7O1Y"];
-        var songLinks = [grandeLink, eilishLink, sherranLink, mendesLink, swiftLink, cabelloLink];
+            "https://www.youtube.com/watch?v=Pkh8UtuejGw",
+            "https://www.youtube.com/watch?v=6fd2kkLmSDQ",
+            "https://www.youtube.com/watch?v=UPOT2tgY9QQ",
+            "https://www.youtube.com/watch?v=HCjNJDNzw8Y",
+            "https://www.youtube.com/watch?v=Uk1hv6h7O1Y"
+        ];
+        var songLinks = [
+            grandeLink, 
+            eilishLink, 
+            sherranLink, 
+            mendesLink, 
+            swiftLink, 
+            cabelloLink];
         var instagramLink = [
-            "https://www.instagram.com/arianagrande/?hl=en", 
-        "https://www.instagram.com/billieeilish/?hl=en", 
-        "https://www.instagram.com/teddysphotos/?hl=en", 
-        "https://www.instagram.com/shawnmendes/?hl=en", 
-        "https://www.instagram.com/taylorswift/?hl=en", 
-        "https://www.instagram.com/camila_cabello/?hl=en"
-    ];
+            "https://www.instagram.com/arianagrande/?hl=en",
+            "https://www.instagram.com/billieeilish/?hl=en",
+            "https://www.instagram.com/teddysphotos/?hl=en",
+            "https://www.instagram.com/shawnmendes/?hl=en",
+            "https://www.instagram.com/taylorswift/?hl=en",
+            "https://www.instagram.com/camila_cabello/?hl=en"
+        ];
         var songList = [];
         var i;
 
