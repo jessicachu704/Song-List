@@ -1,13 +1,70 @@
         //use 2d array of artists and songs and use algorithm to loop through the array then show the corresponding info
-        var arianaGrande = ["Stuck with You", "Rain on Me", "7 Rings", "Thank U, Next", "No Tears Left to Cry"];
-        var billieEilish = ["Bad Guy", "Everything I Wanted", "Lovely", "When the Party's Over", "No Time to Die"];
-        var edSherran = ["Perfect", "I don't Care", "Shape of You", "Beautiful People", "Photograph"];
-        var shawnMendes = ["Señorita", "Treat You Better", "If I Can't Have You", "There's Nothing Holding Me Back", "In My Blood"];
-        var taylorSwift = ["You Need to Calm Down", "ME!", "The Man", "Lover", "Blank Space"];
-        var camilaCabello = ["Señorita", "My Oh My", "South of The Border", "Havana", "Beautiful"];
-        var artists = ["ariana grande", "billie eilish", "ed sherran", "shawn mendes", "taylor swift", "camila cabello"];
-        var artistsName = ["ariana grande", "billie eilish", "ed sherran", "shawn mendes", "taylor swift", "camila cabello"];
-        var songs = [arianaGrande, billieEilish, edSherran, shawnMendes, taylorSwift, camilaCabello];
+        var arianaGrande = [
+            "Stuck with You", 
+            "Rain on Me", 
+            "7 Rings", 
+            "Thank U, Next", 
+            "No Tears Left to Cry"
+        ];
+        var billieEilish = [
+            "Bad Guy", 
+            "Everything I Wanted", 
+            "Lovely", 
+            "When the Party's Over", 
+            "No Time to Die"
+        ];
+        var edSherran = [
+            "Perfect",
+            "I don't Care", 
+            "Shape of You", 
+            "Beautiful People", 
+            "Photograph"
+        ];
+        var shawnMendes = [
+            "Señorita", 
+            "Treat You Better", 
+            "If I Can't Have You", 
+            "There's Nothing Holding Me Back", 
+            "In My Blood"
+        ];
+        var taylorSwift = [
+            "You Need to Calm Down",
+            "ME!", 
+            "The Man", 
+            "Lover", 
+            "Blank Space"
+        ];
+        var camilaCabello = [
+            "Señorita", 
+            "My Oh My", 
+            "South of The Border", 
+            "Havana", 
+            "Beautiful"
+        ];
+        var artists = [
+            "ariana grande", 
+            "billie eilish", 
+            "ed sherran", 
+            "shawn mendes", 
+            "taylor swift", 
+            "camila cabello"
+        ];
+        var artistsName = [
+            "ariana grande", 
+            "billie eilish", 
+            "ed sherran", 
+            "shawn mendes", 
+            "taylor swift", 
+            "camila cabello"
+        ];
+        var songs = [
+            arianaGrande, 
+            billieEilish, 
+            edSherran, 
+            shawnMendes, 
+            taylorSwift, 
+            camilaCabello
+        ];
         var grandeLink = [
             "https://www.youtube.com/watch?v=pE49WK-oNjU",
             "https://www.youtube.com/watch?v=AoAm4om0wTs",
