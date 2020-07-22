@@ -77,6 +77,7 @@
             document.getElementById("demo").innerHTML = null;
         }
 
+
         function myFunction(item, index) {
             document.getElementById("name").innerHTML = document.getElementById("artistSearch").value;
             document.getElementById("demo").innerHTML += (index + 1) + ". " + item ;
@@ -99,7 +100,16 @@
             btn1.innerHTML="Listen";
             btn1.setAttribute("onclick","clicked(this.id)");
             let br = document.createElement("br");
+            let plusBtn = document.createElement("button");
+            plusBtn.setAttribute("onclick", "plus(this.id)");
+            if(checkList(item)){
+                plusBtn.innerHTML = "-";
+            } else {
+                plusBtn.innerHTML = "+";
+            }
+            plusBtn.setAttribute("id", "plus" + " " + index);
             document.getElementById("demo").appendChild(btn1);
+            document.getElementById("demo").appendChild(plusBtn);
             document.getElementById("demo").appendChild(br);
         }
         function myFunction2(item, index) {
@@ -186,4 +196,21 @@
             console.log(index);
             let ins = instagramLink[--index];
             window.location.href = ins;
+        }
+        function plus(id){
+            let index = id.split(" ")[1];
+            let plusBtnPsd = songs[i][index];
+            console.log(plusBtnPsd);
+            songList.push(plusBtnPsd);
+            return checkList(plusBtnPsd);
+        }
+        function checkList(item){
+            for ( n = 0; n <= artists.length; n++){
+                if (songList[n] == item){
+                    clear1(true);
+                    return true;
+                } else {
+                    return false;
+                }
+            }
         }
