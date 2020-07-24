@@ -245,9 +245,14 @@
 
         function listOfSongs() {
             clear();
-            insertionSort(songList);
-            songList.forEach(myFunction);
-
+            if(songList.length == 0){
+                console.log("inside");
+                document.getElementById("demo").innerHTML = "No song in your song list";
+            }
+            if(songList.length != 0){
+                insertionSort(songList);
+                songList.forEach(myFunction);
+            }
         }
 
         function remove() {
