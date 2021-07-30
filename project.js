@@ -200,7 +200,7 @@
             document.getElementById("demo").innerHTML += (index + 1) + ". " + item;
             let btn1 = document.createElement("img");
             btn1.setAttribute("id", "btn" + " " + index);
-            btn1.setAttribute("src", "./youtube.png");
+            btn1.setAttribute("src", "images/youtube.png");
             btn1.setAttribute("width", "80px");
             btn1.setAttribute("height", "70px");
             console.log(btn1.id)
