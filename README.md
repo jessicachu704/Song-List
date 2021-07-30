@@ -2,6 +2,10 @@
 This project was created for BCIT COMP3761 algorithm analysis and design course project.
 
 ## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Project Status](#project-status)
 
 ## General Information
 This web project was used to practice some algorithms I learned from the course COMP3761 algorithm analysis and design. </br>
